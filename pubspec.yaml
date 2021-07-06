@@ -11,11 +11,17 @@ dependencies:
   flutter: 
     sdk: flutter
 
-dev_dependencies: 
-  flutter_test: 
-    sdk: flutter
-  lints: ^1.0.1
+#  containers app
+  app_auth:
+    path: ./lib/app/containers/app_auth
+  app_home:
+    path: ./lib/app/containers/app_home
 
+dev_dependencies:
+#  lints: ^1.0.1
+  flutter_lints: ^1.0.3
+  flutter_test:
+    sdk: flutter
 flutter: 
   uses-material-design: true
 

@@ -1,15 +1,15 @@
 import 'package:get/get.dart';
 
-
-import '../containers/app_section/routes/app_section_pages.dart';
+import '../containers/app_home/lib/main.dart';
+import '../containers/app_auth/lib/main.dart';
 
 class AppPages {
   AppPages._();
 
-  static const initial = AppSectionRoutes.home;
+  static const initial = AppHome.initial;
 
   static final List<GetPage> routes = [
-    ...AppSectionPages.routes,
-
+    ...AppAuthentication.routes,
+    ...AppHome.routes,
   ];
 }

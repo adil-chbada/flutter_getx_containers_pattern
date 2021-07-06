@@ -1,7 +1,7 @@
-include: package:lints/recommended.yaml
+include: package:flutter_lints/flutter.yaml
 linter:
   rules:
-    - annotate_overrides
-    - hash_and_equals
-    - prefer_is_not_empty
-    - prefer_relative_imports
+    avoid_relative_lib_imports: false
+    prefer_relative_imports: true
+    prefer_single_quotes: true
+  # avoid_print: false  # Uncomment to disable the `avoid_print` rule
