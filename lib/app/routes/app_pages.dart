@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 
-import '../containers/app_home/lib/main.dart';
-import '../containers/app_auth/lib/main.dart';
+import '../containers/packages.dart' ;
 
 class AppPages {
   AppPages._();
